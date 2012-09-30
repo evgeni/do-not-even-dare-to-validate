@@ -1,0 +1,19 @@
+{
+  "name": "Do Not Even Dare To Validate",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description": "Make forms valid, always!",
+  "icons": {
+    "128": "icon128.png",
+    "48": "icon48.png",
+    "16": "icon.png"
+  },
+  "background": { "scripts": ["background.js"] },
+  "permissions": [
+    "tabs", "http://*/*", "https://*/*"
+  ],
+  "browser_action": {
+    "default_title": "onSubmit verification? FU!",
+    "default_icon": "icon.png"
+  }
+}
